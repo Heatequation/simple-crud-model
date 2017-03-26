@@ -1,0 +1,4 @@
+
+> sqlite3 crud_db
+sqlite> create table Entries (ID INT NOT NULL, NAME VARCHAR(20) NOT NULL, AGE INT NOT NULL, PRIMARY KEY (ID));
+sqlite> insert into Entries(id, name, age) values(1, 'Sam', 60);
